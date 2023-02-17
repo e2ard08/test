@@ -41,13 +41,14 @@ aws --version
 
 ### Gitpod 
 
-I installed the extension but for some reason when I try to open Gitpod , in the page show me I already have a email for github .
+I installed the extension .
+
+![gitpod](/assets/gitpod-error2.png)
+
+but for some reason when I try to open Gitpod , in the page show me I already have a email for github .
 for this reason I use my local repo with VS code
 
 I will try to fix it soon ... 
-
-Gitpod Warning !
-Email address already used in another account. Please log in with gitlab.com.
 
 ![gitpod](/assets/gitpod-error.png)
 
