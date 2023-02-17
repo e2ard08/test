@@ -43,8 +43,6 @@ aws --version
 
 I installed the extension .
 
-![gitpod1](/assets/gitpod-error2.png)
-
 but for some reason when I try to open Gitpod , in the page show me I already have a email for github .
 for this reason I use my local repo with VS code
 
@@ -52,9 +50,15 @@ I will try to fix it soon ...
 
 ![gi](/assets/gitpod-error.png)
 
+![gi](/assets/shell.png)
 
 ### Create a Billing Alarm
 
 
 
 ### Create a Budget
+
+I create the budget via GUI but i can see the information via CLI with this command.
+
+aws budgets describe-budget --account-id 038306313412 --budget-name "Budget Bootcamp AWS"
+
