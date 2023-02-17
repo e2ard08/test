@@ -43,14 +43,14 @@ aws --version
 
 I installed the extension .
 
-![gitpod](/assets/gitpod-error2.png)
+![gitpod1](/assets/gitpod-error2.png)
 
 but for some reason when I try to open Gitpod , in the page show me I already have a email for github .
 for this reason I use my local repo with VS code
 
 I will try to fix it soon ... 
 
-![gitpod](/assets/gitpod-error.png)
+![gi](/assets/gitpod-error.png)
 
 
 ### Create a Billing Alarm
