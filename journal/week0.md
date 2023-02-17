@@ -49,7 +49,7 @@ I will try to fix it soon ...
 Gitpod Warning !
 Email address already used in another account. Please log in with gitlab.com.
 
-![error](/assets/gitpod-error.png)
+![gitpod](/assets/gitpod-error.png)
 
 
 ### Create a Billing Alarm
