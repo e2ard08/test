@@ -11,7 +11,7 @@
 
 I previously installed it and use this reference to install it
 
-(assets/aws-cli.png)
+![aws](assets/aws-cli.png)
 
 
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
@@ -49,7 +49,7 @@ I will try to fix it soon ...
 Gitpod Warning !
 Email address already used in another account. Please log in with gitlab.com.
 
-(assets/gitpod-error.png)
+![error](/assets/gitpod-error.png)
 
 
 ### Create a Billing Alarm
