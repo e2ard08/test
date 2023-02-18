@@ -29,10 +29,6 @@ I previously installed it and use this reference to install it
 
 ![aws](assets/aws-cli.png)
 
-### Budget AWS CLI
-
-![Budget](assets/Budget-cli.png)
-
 
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
@@ -90,6 +86,12 @@ Created via GUI AWS
 
 I create the budget via GUI but i can see the information via CLI with this command.
 
-aws budgets describe-budget --account-id 038306313412 --budget-name "Budget Bootcamp AWS"
 
 ![Budget](assets/Budget.png)
+
+
+### Budget AWS CLI
+
+aws budgets describe-budget --account-id XXXXXX --budget-name "Budget Bootcamp AWS"
+
+![Budget](assets/Budget-cli.png)
