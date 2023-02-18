@@ -12,6 +12,8 @@
 
 ### Use CloudShell
 
+![Shell](/assets/shell.png)
+
 ### Generate AWS Credentials
 
 
@@ -56,9 +58,9 @@ for this reason I use my local repo with VS code
 
 I will try to fix it soon ... 
 
-![Gitpod Error](assets/shell.png)
+![Gitpod Error](assets/gitpod-error.png)
 
-![Shell](/assets/shell.png)
+
 
 ### Create a Billing Alarm
 
