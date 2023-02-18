@@ -1,14 +1,19 @@
 # Week 0 — Billing and Architecture
+
 ## Homework
 
 
 
 ### Architecture in Lucichart
 
-[Let's see it](https://lucid.app/lucidchart/ced94c16-77ec-47c1-abc5-675eac3eb8ef/edit?viewport_loc=-393%2C-204%2C3897%2C1944%2C0_0&invitationId=inv_335dd30a-6d0f-4b6b-b53b-3c6757f8b630). 
+[Check it out !](https://lucid.app/lucidchart/ced94c16-77ec-47c1-abc5-675eac3eb8ef/edit?viewport_loc=-393%2C-204%2C3897%2C1944%2C0_0&invitationId=inv_335dd30a-6d0f-4b6b-b53b-3c6757f8b630). 
+
+![Lucichart](assets/Lucichart.png)
 
 
 ### Create an Admin User
+
+Done .
 
 ### Use CloudShell
 
@@ -16,6 +21,7 @@
 
 ### Generate AWS Credentials
 
+Done. 
 
 ### Installed AWS CLI
 
@@ -61,9 +67,9 @@ I will try to fix it soon ...
 ![Gitpod Error](assets/gitpod-error.png)
 
 
-
 ### Create a Billing Alarm
 
+Created via GUI AWs
 
 
 ### Create a Budget
@@ -72,3 +78,4 @@ I create the budget via GUI but i can see the information via CLI with this comm
 
 aws budgets describe-budget --account-id 038306313412 --budget-name "Budget Bootcamp AWS"
 
+![Budget](assets/Budget.png)
