@@ -66,9 +66,19 @@ I installed the extension .
 but for some reason when I try to open Gitpod , in the page show me I already have a email for github .
 for this reason I use my local repo with VS code
 
+##VS Code - Github 
+
+![Github](assets/VS.png)
+
+
+
+GitPod Error !!  
 I will try to fix it soon ... 
 
 ![Gitpod Error](assets/gitpod-error.png)
+
+
+
 
 
 ### Create a Billing Alarm
