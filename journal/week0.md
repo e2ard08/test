@@ -12,7 +12,7 @@
 
 ### Use CloudShell
 
-![cloud shell](assets/gitpod-error.png)
+![cloud shell](assets/shell.png)
 
 ### Generate AWS Credentials
 
