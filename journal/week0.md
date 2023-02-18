@@ -3,9 +3,10 @@
 
 
 
-### Lucichart
+### Architecture in Lucichart
 
-[Architecture Lucichart]( https://lucid.app/lucidchart/ced94c16-77ec-47c1-abc5-675eac3eb8ef/edit?viewport_loc=-393%2C-204%2C3897%2C1944%2C0_0&invitationId=inv_335dd30a-6d0f-4b6b-b53b-3c6757f8b630). 
+[Let's see it](https://lucid.app/lucidchart/ced94c16-77ec-47c1-abc5-675eac3eb8ef/edit?viewport_loc=-393%2C-204%2C3897%2C1944%2C0_0&invitationId=inv_335dd30a-6d0f-4b6b-b53b-3c6757f8b630). 
+
 
 ### Create an Admin User
 
@@ -55,7 +56,7 @@ for this reason I use my local repo with VS code
 
 I will try to fix it soon ... 
 
-![Gitpod Error](/assets/gitpod-error.png)
+![Gitpod Error](/assets/img.jpeg)
 
 ![Shell](/assets/shell.png)
 
