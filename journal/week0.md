@@ -56,7 +56,7 @@ for this reason I use my local repo with VS code
 
 I will try to fix it soon ... 
 
-![Gitpod Error](assets/aws-cli.png)
+![Gitpod Error](assets/shell.png)
 
 ![Shell](/assets/shell.png)
 
