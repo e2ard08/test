@@ -29,6 +29,10 @@ I previously installed it and use this reference to install it
 
 ![aws](assets/aws-cli.png)
 
+### Budget AWS CLI
+
+![Budget](assets/Budget-cli.png)
+
 
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
@@ -69,7 +73,7 @@ I will try to fix it soon ...
 
 ### Create a Billing Alarm
 
-Created via GUI AWs
+Created via GUI AWS
 
 
 ### Create a Budget
