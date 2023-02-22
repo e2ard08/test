@@ -74,6 +74,10 @@ I will try to fix it soon ...
 ![Gitpod Error](assets/gitpod-error.png)
 
 
+Solved Following this indications 
+
+
+https://www.gitpod.io/docs/configure/authentication
 
 
 
