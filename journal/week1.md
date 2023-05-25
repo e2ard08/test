@@ -1,5 +1,5 @@
 
-# Solucion Lab 06
+# Solución Lab 06
 
 ## 1. Crear Dockerfile 
 
