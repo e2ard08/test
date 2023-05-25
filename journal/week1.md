@@ -14,9 +14,9 @@
 
 ## 3. Docker Build 
 
-###  Docker build -t poke-lab6 .
+- Crear Imagen -  Docker build -t poke-lab6 .
 
-## Container corriendo puerto 5000 
+- Container corriendo puerto 5000 
 
 [![solucion-5000.png](https://i.postimg.cc/cHzrJNtP/solucion-5000.png)](https://postimg.cc/bDQz6WTR)
 
@@ -27,12 +27,17 @@
 
 [![docker-login.png](https://i.postimg.cc/02yPB46w/docker-login.png)](https://postimg.cc/fkpG3Bfz)
 
-### Docker Push 
+### Docker Push
+
+- Tag de imagen 
+- Push de imagen
+
 
 [![docker-push.png](https://i.postimg.cc/PqYjDs7B/docker-push.png)](https://postimg.cc/jWxmV9tX)
 
 ### Docker Hub
 
+- imagen final 
 [![Dockerhub.png](https://i.postimg.cc/7hY8jCLk/Dockerhub.png)](https://postimg.cc/FdqBLHcW)
 
 
