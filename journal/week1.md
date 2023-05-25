@@ -12,3 +12,6 @@
 # React Container
 ## both containers works ! little issue with react container 
 ![Error](assets/week-1/error.png)
+
+
+[![app-py-solucion.png](https://i.postimg.cc/TwMwDc33/app-py-solucion.png)](https://postimg.cc/hJscFTmk)
