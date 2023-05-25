@@ -7,7 +7,8 @@
 
 ## 2. Revision File Python " app.py " 
 
-## Se agrego el accesso al puerto 5000 
+- Se agrego el accesso al puerto 5000
+- app.run(host='0.0.0.0' , port=5000) 
 
 [![app-py-solucion.png](https://i.postimg.cc/TwMwDc33/app-py-solucion.png)](https://postimg.cc/hJscFTmk)
 
