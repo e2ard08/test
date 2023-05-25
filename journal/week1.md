@@ -9,15 +9,33 @@
 
 ## Se agrego el accesso al puerto 5000 
 
-## Code   " app.run(host='0.0.0.0' , port=5000) "
-
 [![app-py-solucion.png](https://i.postimg.cc/TwMwDc33/app-py-solucion.png)](https://postimg.cc/hJscFTmk)
 
 
 ## 3. Docker Build 
 
-### Docker build -t poke-lab6 .
+###  Docker build -t poke-lab6 .
 
+## Container corriendo puerto 5000 
+
+[![solucion-5000.png](https://i.postimg.cc/cHzrJNtP/solucion-5000.png)](https://postimg.cc/bDQz6WTR)
 
 
 ## 4. Docker Push - Docker Hub
+
+### Docker Login 
+
+[![docker-login.png](https://i.postimg.cc/02yPB46w/docker-login.png)](https://postimg.cc/fkpG3Bfz)
+
+### Docker Push 
+
+[![docker-push.png](https://i.postimg.cc/PqYjDs7B/docker-push.png)](https://postimg.cc/jWxmV9tX)
+
+### Docker Hub
+
+[![Dockerhub.png](https://i.postimg.cc/7hY8jCLk/Dockerhub.png)](https://postimg.cc/FdqBLHcW)
+
+
+
+
+
