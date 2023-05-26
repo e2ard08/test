@@ -1,8 +1,9 @@
 
-# Solución Lab 01
+Solución Lab 01
 
+# Primera Parte 
 
-## Docker Nginx 1.22.1 
+ Docker Nginx 1.22.1 
 
 docker pull nginx:1.22.1
 
@@ -10,13 +11,13 @@ docker pull nginx:1.22.1
 [![Docker-nginx.png](https://i.postimg.cc/BnSw5cWp/Docker-nginx.png)](https://postimg.cc/crzm03Lt)
 
 
-## Nginx Bash 
+ Nginx Bash 
 
 
 [![nginx-bash.png](https://i.postimg.cc/MTVDJv2X/nginx-bash.png)](https://postimg.cc/ftWXxWbh)
 
 
-## Permisos de Ejecución 
+ Permisos de Ejecución 
 
 chmod +x script.sh
 
@@ -24,7 +25,7 @@ chmod +x script.sh
 [![Permisos-de-Ejecucion.png](https://i.postimg.cc/FFxybt9t/Permisos-de-Ejecucion.png)](https://postimg.cc/Dm84FMJ5)
 
 
-## Docker Pull mediante Bash
+ Docker Pull mediante Bash
 
 Correr Bash ./1-nginx.sh
 
