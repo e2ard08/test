@@ -94,5 +94,6 @@ Validar las imagenes
 - Docker rmi -f fe8 5f5 ( se pueden seleccionar las 3 primeros datos alfanumericos )
 - Docker image ls  ( para validar que las imagenes ya no existen ) 
 
+[![docker-rmi.png](https://i.postimg.cc/Gt4P9hHn/docker-rmi.png)](https://postimg.cc/y3z3bKmL)
 
 
