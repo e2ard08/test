@@ -1,6 +1,7 @@
 
-# Solución Lab 01 
-Primera Parte 
+# Solución Lab 01
+ 
+**Primera Parte** 
 
 Dockerhub : https://hub.docker.com/_/nginx/tags?page=5
 
