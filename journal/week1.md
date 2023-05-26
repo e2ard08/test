@@ -3,7 +3,7 @@ Solución Lab 01
 
 # Primera Parte 
 
- Docker Nginx 1.22.1 
+Dockerhub : https://hub.docker.com/_/nginx/tags?page=5
 
 docker pull nginx:1.22.1
 
@@ -11,7 +11,7 @@ docker pull nginx:1.22.1
 [![Docker-nginx.png](https://i.postimg.cc/BnSw5cWp/Docker-nginx.png)](https://postimg.cc/crzm03Lt)
 
 
- Nginx Bash 
+ ## Nginx Bash 
 
 
 [![nginx-bash.png](https://i.postimg.cc/MTVDJv2X/nginx-bash.png)](https://postimg.cc/ftWXxWbh)
