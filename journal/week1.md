@@ -1,7 +1,6 @@
 
 # Solución Lab 01
 
-1. Primera parte 
 
 ## Docker Nginx 1.22.1 
 
