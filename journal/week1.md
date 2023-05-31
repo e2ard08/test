@@ -1,99 +1,49 @@
-# Solución Lab 01
+# Solución Lab 08
 
 ## 1. Primera Parte
 
-Dockerhub : https://hub.docker.com/_/nginx/tags?page=5
+Revision de arquitectura de red solicitada 
 
-docker pull nginx:1.22.1
-
-
-[![Docker-nginx.png](https://i.postimg.cc/BnSw5cWp/Docker-nginx.png)](https://postimg.cc/crzm03Lt)
+[![custom-network.png](https://i.postimg.cc/nL6dFkMy/custom-network.png)](https://postimg.cc/kVvNwWQs)
 
 
- ## Nginx Bash 
-
-crear Bash 
-
-[![nginx-bash.png](https://i.postimg.cc/MTVDJv2X/nginx-bash.png)](https://postimg.cc/ftWXxWbh)
+- Crear "Custom Network" dentro del Docker-compose File  para que ambos contenedores se comuniquen dentro de la misma red
 
 
-## Permisos de Ejecución 
+## 2. Segunda Parte
 
-chmod +x script.sh
+Crear Dockerfile Python 
+- Incluir requirements.txt ( Lista de Versiones de Apps )
 
-
-[![Permisos-de-Ejecucion.png](https://i.postimg.cc/FFxybt9t/Permisos-de-Ejecucion.png)](https://postimg.cc/Dm84FMJ5)
-
-
-## Docker Pull mediante Bash
-
-Correr Bash ./1-nginx.sh
-
-## Revisar Imagen Docker 
-
-Docker Image ls 
-
-[![Docker-image-nginx.png](https://i.postimg.cc/3JRvgdSp/Docker-image-nginx.png)](https://postimg.cc/QV2CDxrx)
+[![Dockerfile.png](https://i.postimg.cc/cCcTcGTW/Dockerfile.png)](https://postimg.cc/30dgK6Pf)
 
 
-# Segunda Parte 
+Crear Docker-Compose.yml 
 
-## iniciando contenedor MySQL 
+Servicios : 
+Python Puerto :8080
+Redis  Redis  :6379
+Incluir Custom-Network 
 
- - docker run --name=db -p 3306:3306 -e MYSQL_ROOT_PASSWORD=secret-pw -d mysql:8
+networks:
+  py-redis-nw:
+   driver: bridge 
 
-[![Msql.png](https://i.postimg.cc/Xqmx4yNC/Msql.png)](https://postimg.cc/D4Q1c0Xv)
-
-
-## Conexion MySQL
-
-- docker exec -it db bash
-- mysql -u root -p
-- Password : secret-pw
-
-[![Conexion-msql.png](https://i.postimg.cc/CKS7h00m/Conexion-msql.png)](https://postimg.cc/fVqmC6J9)
+[![Docker-Compose.png](https://i.postimg.cc/zGySyhm8/Docker-Compose.png)](https://postimg.cc/Mn8j4vKF)
 
 
-## Iniciando contenedor PHPMyAdmin
 
-- docker run --name=my-admin -p 82:80 --link db:db -d phpmyadmin
+## 3. Tercera Parte
 
-[![PHPAdmin.png](https://i.postimg.cc/MTcd4DqS/PHPAdmin.png)](https://postimg.cc/wypXRD1f)
+Validar Custom Network Creada
 
+Docker Network ls  ( Listar Networks )
 
-## Verificar Servicio PHPMyAdmin
-
--  http://localhost:82/
--  Usuario : root 
--  Password : secret-pw
-
-[![Php-login.png](https://i.postimg.cc/PfwSQ2Sb/Php-login.png)](https://postimg.cc/hhK8SbWh)
-
-## Accede al panel principal 
-
-Conectado !
-
-[![php-consola.png](https://i.postimg.cc/k52QXgZN/php-consola.png)](https://postimg.cc/2qfb0rC3)
-
-## Stop Containers
-
-Validar los IDs de los contenedores 
-
-- Docker ps  ( para listar los contenedores )
-- Docker stop 143 5c6  ( se pueden seleccionar las 3 primeros datos alfanumericos )
-- Docker ps ( para validar que estan en stop los contenedores ) 
+[![docker-network.png](https://i.postimg.cc/HWSybL9x/docker-network.png)](https://postimg.cc/3WvNTY65)
 
 
-[![Docker-stop.png](https://i.postimg.cc/G2hHh79W/Docker-stop.png)](https://postimg.cc/nsgH3142)
+## 4. Cuarta Parte
 
-## Remove Images
+Validar la aplicacion en Localhost:8080
 
-Validar las imagenes 
-
-- Docker image ls  ( listar las imagenes ) 
-- Docker rmi -f fe8 5f5 ( se pueden seleccionar las 3 primeros datos alfanumericos )
-- Docker image ls  ( para validar que las imagenes ya no existen ) 
-
-[![docker-rmi.png](https://i.postimg.cc/Gt4P9hHn/docker-rmi.png)](https://postimg.cc/y3z3bKmL)
-
-
+[![app-running.png](https://i.postimg.cc/jdpChnws/app-running.png)](https://postimg.cc/LnVH9X37)
